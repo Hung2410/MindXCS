@@ -29,9 +29,9 @@
 
 //Bai 4
 
-// let staffs = [{ name: 'Nguyễn Phúc Quý', age: 20, wage: 10000000, position: 'giám đốc' },
-//     { name: 'Nguyễn tiến An', age: 20, wage: 10000000, position: 'quản lý' },
-//     { name: 'Nguyễn Hoàng Bảo', age: 19, wage: 5000000, position: 'công nhân' }];
+// let staffs = [{ name: 'Nguyen Van A', age: 25, wage: 50000000, position: 'worker' },
+//     { name: 'Nguyen Van B', age: 20, wage: 200000000, position: 'manager' },
+//     { name: 'Nguyen Van C', age: 19, wage: 5000000, position: 'worker' }];
 // while (true) {
 //     let value = prompt('what do you want(C,R,U,D)?').toLowerCase();
 //     if (value == 'r') {
