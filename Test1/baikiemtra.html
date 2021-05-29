@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng thông tin</title>
+    <style>
+        input {
+            width: 90%;
+        }
+        
+        button {
+            border: 0px;
+            border-radius: 3px;
+        }
+        
+        td {
+            padding-left: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="width: 70%; margin: 0 auto;">
+
+        <table style="width: 50%; background-color: rgb(231, 231, 231);">
+            <tr>
+                <th colspan="2">
+                    <h3><strong>Thông tin tài khoản</strong></h3>
+                </th>
+            </tr>
+            <tr>
+                <td>Tài khoản:</td>
+                <td><input type="text" id="Tk"></td>
+            </tr>
+            <tr>
+                <td>Mật khẩu:</td>
+                <td><input type="password" id="Pw"></td>
+            </tr>
+            <tr>
+                <td>Nhập lại mật khẩu:</td>
+                <td><input type="password" id="Pw2"></td>
+            </tr>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" id="Mail"></td>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    <p style="color: red;">(Email này được dùng để nhận mọi thông tin phản hồi từ bộ công thương!</p>
+                </th>
+            </tr>
+            </tr>
+            <tr>
+                <td>Nhập lại Email:</td>
+                <td><input type="email" id="Mail2"></td>
+            </tr>
+            <tr>
+                <th colspan="2" style="text-align: center;">Thông tin người đại diện pháp luật cho thương nhân</th>
+            </tr>
+            <tr>
+                <td>Họ và tên:</td>
+                <td><input type="text" id="Hoten"></td>
+            </tr>
+            <tr>
+                <td>Ngày sinh:</td>
+                <td><input type="date" style="width: 50%;" id="Ngay"></td>
+            </tr>
+            <tr>
+                <td>Địa chỉ:</td>
+                <td><input type="text" id="Diachi"></td>
+            </tr>
+            <tr>
+                <td>Điện thoại di động:</td>
+                <td><input type="tel" id="Sdt"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="text" id="Sdt"></td>
+            </tr>
+            </tr>
+            <tr>
+                <td>Chức vụ:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr style="text-align: center;">
+                <td colspan="2"><button style="background-color: rgb(159, 165, 165); color: white;">Xóa tất cả</button>
+                    <button style="background-color: rgb(114, 193, 224); color: white;" onclick="Gui()">Gửi đăng ký</button></td>
+
+            </tr>
+        </table>
+    </div>
+    <script>
+        function Gui() {
+
+            alert("Cảm ơn bạn đã gửi thông tin.");
+            window.location = "http://humg.edu.vn";
+        }
+    </script>
+</body>
+
+</html>
+</body>
+</html>
