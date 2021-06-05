@@ -1,0 +1,13 @@
+.text-yellow {
+    color: yellow;
+}
+div1 {
+    font-weight: bold;
+}
+ 
+div.item > :first-child{
+    font-weight: 18px
+}
+div.item > :nth-child(2) {
+    font-style: italic;
+  }

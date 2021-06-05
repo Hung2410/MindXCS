@@ -1,0 +1,29 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+p {
+    font-size: 30px;
+    font-weight: bold;
+}
+h4 {
+    font-style: oblique;
+}
+h6 {
+    text-align: right;
+}
+.text-red {
+    color: red;
+}
+.text-italic {
+    font-style: italic;
+}
+.text-bodered {
+    border-bottom-width: 3px;
+    border-bottom-color: green;
+    border-bottom-style: dashed;
+    
+}
+#heading-1 {
+    background-color: greenyellow;
+}
