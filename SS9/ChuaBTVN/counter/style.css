@@ -1,0 +1,19 @@
+.wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 28px;
+    height: 28px;
+    font-size: 16px;
+
+}
+.result {
+    margin-left: 10px;
+    margin-right: 10px;
+}

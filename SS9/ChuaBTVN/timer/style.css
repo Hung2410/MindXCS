@@ -1,0 +1,14 @@
+.wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-start {
+    background-color: green;
+    border-radius: 8px;
+}
+.btn-stop {
+    background-color: red;
+    border-radius: 8px;
+}
